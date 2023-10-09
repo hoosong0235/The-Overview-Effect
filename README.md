@@ -1,5 +1,7 @@
 # The Overview Effect
 
+TODO: youtube video
+
 ## Phase 1: Concept and Design
 
 <!-- Brainstorm a concept for your VR experience, drawing inspiration from the articles.
@@ -30,11 +32,11 @@ Sit comfortably, quiet your mind, and relax.
 
 <br>
 
-<p align="center">
-    <img src="/ReadmeAssets/Notebook1.jpg" width="33%">
-    <img src="/ReadmeAssets/Notebook2.jpg" width="33%">
-    <img src="/ReadmeAssets/Notebook3.jpg" width="33%">
-</p>
+<!-- <p align="center">
+    <img src="/ReadmeAssets/Notebook1.jpg" width="25%">
+    <img src="/ReadmeAssets/Notebook2.jpg" width="25%">
+    <img src="/ReadmeAssets/Notebook3.jpg" width="25%">
+</p> -->
 
 ## Phase 2: Asset Compilation
 
@@ -134,12 +136,25 @@ Every method of cacluating transform of satelite, moon, and earth under absolute
 <details>
 <summary>Blueprint Implementation</summary>
 
-![](/ReadmeAssets/SpaceshipRevolution1.png)
-![](/ReadmeAssets/SpaceshipRotation12.png)
-![](/ReadmeAssets/EarthRotation12.png)
-![](/ReadmeAssets/MoonRevolution1.png)
-![](/ReadmeAssets/MoonRevolution2.png)
-![](/ReadmeAssets/MoonRotation12.png)
+##### Spaceship Revolution
+
+![](/ReadmeAssets/TransformSystem/SpaceshipRevolution.png)
+
+##### Spaceship Rotation
+
+![](/ReadmeAssets/TransformSystem/SpaceshipRotation.png)
+
+##### Earth Rotation
+
+![](/ReadmeAssets/TransformSystem/EarthRotation.png)
+
+##### Moon Revolution
+
+![](/ReadmeAssets/TransformSystem/MoonRevolution.png)
+
+##### Moon Rotation
+
+![](/ReadmeAssets/TransformSystem/MoonRotation.png)
 
 </details>
 
@@ -181,11 +196,25 @@ https://www.eso.org/public/images/eso0932a/
 <details>
 <summary>Blueprint Implementation</summary>
 
-![](/ReadmeAssets/EarthMaterial1.png)
-![](/ReadmeAssets/EarthMaterial2.png)
-![](/ReadmeAssets/EarthMaterial3.png)
-![](/ReadmeAssets/MoonMaterial.png)
-![](/ReadmeAssets/UniverseMaterial.png)
+##### Earth Material 1
+
+![](/ReadmeAssets/Material/EarthMaterial1.png)
+
+##### Earth Material 2
+
+![](/ReadmeAssets/Material/EarthMaterial2.png)
+
+##### Earth Material 3
+
+![](/ReadmeAssets/Material/EarthMaterial3.png)
+
+##### Moon Material
+
+![](/ReadmeAssets/Material/MoonMaterial.png)
+
+##### Universe Material
+
+![](/ReadmeAssets/Material/UniverseMaterial.png)
 
 </details>
 
@@ -217,8 +246,13 @@ $$
 <details>
 <summary>Blueprint Implementation</summary>
 
-![](/ReadmeAssets/IncreaseTimeScale.png)
-![](/ReadmeAssets/DecreaseTimeScale.png)
+##### Increase Time Scale
+
+![](/ReadmeAssets/ControlTimeScale/IncreaseTimeScale.png)
+
+##### Decrease Time Scale
+
+![](/ReadmeAssets/ControlTimeScale/DecreaseTimeScale.png)
 
 </details>
 
@@ -266,13 +300,25 @@ Also, we can apply the same two different method for caculating location and rot
 <details>
 <summary>Blueprint Implementation</summary>
 
-![](/ReadmeAssets/EarthRevolution1.png)
-![](/ReadmeAssets/EarthRevolution2.png)
-![](/ReadmeAssets/EarthRotation12.png)
-![](/ReadmeAssets/SpaceshipRotation12.png)
-![](/ReadmeAssets/MoonRevolution1.png)
-![](/ReadmeAssets/MoonRevolution2.png)
-![](/ReadmeAssets/MoonRotation12.png)
+##### Earth Revolution
+
+![](/ReadmeAssets/TransformSystem/EarthRevolution.png)
+
+##### Earth Rotation
+
+![](/ReadmeAssets/TransformSystem/EarthRotation.png)
+
+##### Spaceship Rotation
+
+![](/ReadmeAssets/TransformSystem/SpaceshipRotation.png)
+
+##### Moon Revolution
+
+![](/ReadmeAssets/TransformSystem/MoonRevolution.png)
+
+##### Moon Rotation
+
+![](/ReadmeAssets/TransformSystem/MoonRotation.png)
 
 </details>
 
@@ -286,31 +332,42 @@ Also, we can apply the same two different method for caculating location and rot
 
 I have designed user interface and user experience flow for controlling time scale. If user start pressing button X at left controller, user interface that shows current time scale and some futuristic spaceship effect opens in the screen. If user complete pressing button X at left controller, the user interface closes. While user pressing button X at left controller, user can start pressing button B or A at right controller in order to increase or decrease the time scale.
 
-<details>
-<summary>Blueprint Implementation</summary>
-
-![](/ReadmeAssets/TimeScaleUI.png)
-![](/ReadmeAssets/GetTextBlockText.png)
-![](/ReadmeAssets/GetCircularBarValue.png)
-![](/ReadmeAssets/OpenTimeScaleUI.png)
-![](/ReadmeAssets/CloseTimeScaleUI.png)
-
-</details>
-
 #### 2) Grabbable
 
 User can generate grabbable object in front of current control rotation of the user by pressing button Y at left controller. User can actaully grab the object and physically interact with the object freely with both controller while playing simulation in VR device.
 
-<details>
-<summary>Blueprint Implementation</summary>
-
-![](/ReadmeAssets/GenerateGrabObject.png)
-
-</details>
-
 #### 3) Navigation
 
 User can navigate around the preset translucent area by controlling joystick at right controller.
+
+<details>
+<summary>Blueprint Implementation</summary>
+
+##### Time Scale UI
+
+![](/ReadmeAssets/UIUX/TimeScaleUI.png)
+
+##### Get Text Block Text
+
+![](/ReadmeAssets/UIUX/GetTextBlockText.png)
+
+##### Get Circular Bar Value
+
+![](/ReadmeAssets/UIUX/GetCircularBarValue.png)
+
+##### Open Time Scale UI
+
+![](/ReadmeAssets/UIUX/OpenTimeScaleUI.png)
+
+##### Close Time Scale UI
+
+![](/ReadmeAssets/UIUX/CloseTimeScaleUI.png)
+
+##### Generate Grab Object
+
+![](/ReadmeAssets/UIUX/GenerateGrabObject.png)
+
+</details>
 
 ## Phase 4: Emotional Impact
 
