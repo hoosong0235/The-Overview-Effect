@@ -1,7 +1,5 @@
 # The Overview Effect
 
-TODO: youtube video
-
 ## Phase 1: Concept and Design
 
 <!-- Brainstorm a concept for your VR experience, drawing inspiration from the articles.
@@ -32,11 +30,11 @@ Sit comfortably, quiet your mind, and relax.
 
 <br>
 
-<!-- <p align="center">
+<p align="center">
     <img src="/ReadmeAssets/Notebook1.jpg" width="25%">
     <img src="/ReadmeAssets/Notebook2.jpg" width="25%">
     <img src="/ReadmeAssets/Notebook3.jpg" width="25%">
-</p> -->
+</p>
 
 ## Phase 2: Asset Compilation
 
@@ -261,7 +259,7 @@ $$
 <!-- Students will focus on creating an emotional impact in their VR experience, drawing from the readings.
 Consider using lighting, sound, and storytelling elements to evoke specific emotions within users. -->
 
-TODO: youtube video with only x64
+[![](/ReadmeAssets/Thumbnail/Thumbnail%201.png)](https://youtu.be/kAeelf3THbk)
 
 ## Phase 5: Testing and Iteration
 
@@ -374,7 +372,9 @@ User can navigate around the preset translucent area by controlling joystick at 
 <!-- Students will focus on creating an emotional impact in their VR experience, drawing from the readings.
 Consider using lighting, sound, and storytelling elements to evoke specific emotions within users. -->
 
-TODO: video link from x1 to x1024
+[![](/ReadmeAssets/Thumbnail/Thumbnail%202.png)](https://youtu.be/aXk-zJEC7uA)
+
+[![](/ReadmeAssets/Thumbnail/Thumbnail%203.png)](https://youtu.be/gL8F-LTYUYM)
 
 ## Phase 6: Documentation and Presentation
 
