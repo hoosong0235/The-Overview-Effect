@@ -220,7 +220,7 @@ https://www.eso.org/public/images/eso0932a/
 
 #### 1) Theory
 
-If you read the "🔥 Mathematical Equation of Absolute Transform System" page above, you would have noticed every single equation has a parameter named time scale. Usually it is used to divide the period of every revolution and rotation that exists, in order to accelerate them as much as its value. Since, we have implemented each movement including the global variable time scale, It seems like all we have to do is only manipulating its value if user input comes.
+If you read the "🔥 Mathematical Equation of Absolute Transform System" page above, you would have noticed every single equation has a parameter named time scale. Usually it is used to divide the period of every revolution and rotation that exists, in order to accelerate them as much as its value. Since we have implemented each movement including the global variable time scale, It seems like all we have to do is only manipulating its value if user input comes.
 
 However, there is one fatal problem with this. The phase of the trigonometric function changes if we changes only time scale value. Okay, I know it is hard to understand at first. So let me explain them with an example. Assume we are simulating a periodical movement with a trigonometric function $sin({\pi t \over T}), where \space T = {3 \over timeScale}$. Initial time scale is $1$ and user wants to increase the time scale as $1.5$ when $t = 3$. In easy word, we want to change a function from $f(x)$ to $g(x)$ in figure below.
 
@@ -328,15 +328,15 @@ Also, we can apply the same two different method for caculating location and rot
 
 #### 1) Time Scale
 
-I have designed user interface and user experience flow for controlling time scale. If user start pressing button X at left controller, user interface that shows current time scale and some futuristic spaceship effect opens in the screen. If user complete pressing button X at left controller, the user interface closes. While user pressing button X at left controller, user can start pressing button B or A at right controller in order to increase or decrease the time scale.
+I have designed user interface and user experience flow for controlling time scale. If user start pressing button X at left controller, user interface hologram that shows current time scale and some futuristic spaceship effect opens in front of the spaceship. If user complete pressing button X at left controller, the user interface closes. While user pressing button X at left controller, user can start pressing button B or A at right controller in order to increase or decrease the time scale.
 
 #### 2) Grabbable
 
-User can generate grabbable object in front of current control rotation of the user by pressing button Y at left controller. User can actaully grab the object and physically interact with the object freely with both controller while playing simulation in VR device.
+User can generate grabbable object in front of current control rotation of the user by pressing button Y at left controller. User can actaully grab the object and physically interact with the object freely with both controller while playing simulation in VR device. And since you are in the spaceship, where the effect of gravity vanishes since the virtual centrifugal force cancel out the gravity, every single object doesn't affected by gravity.
 
 #### 3) Navigation
 
-User can navigate around the preset translucent area by controlling joystick at right controller.
+User can navigate around the preset translucent circular area, which is temporary implemented as spaceship, by controlling joystick at right controller.
 
 <details>
 <summary>Blueprint Implementation</summary>
